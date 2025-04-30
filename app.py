@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 MERCHANT_ID = 'b7e177ee-406a-11ea-90aa-000c295eb8fc'
-CALLBACK_BASE = 'https://your-heroku-app.herokuapp.com/verify'
+CALLBACK_BASE = 'https://v2raybot.onrender.com'
 
 @app.route('/pay')
 def pay():
